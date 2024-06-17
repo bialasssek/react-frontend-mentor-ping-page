@@ -26,7 +26,7 @@ export default function App() {
 }
 
 function Logo() {
-  return <img className="logo" src="public\logo.svg" alt="logo ping." />;
+  return <img className="logo" src="./logo.svg" alt="logo ping." />;
 }
 
 function Header() {
@@ -93,7 +93,7 @@ function Illustration() {
   return (
     <img
       className="illustration"
-      src="public\illustration-dashboard.png"
+      src="./illustration-dashboard.png"
       alt="illustration dashboard"
     />
   );
